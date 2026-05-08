@@ -102,6 +102,9 @@ Requires the **dune-notify** PHP plugin installed on the player (see `dune-notif
 
 ## Changelog
 
+### **WORK IN PROGRESS**
+- (copilot) Adapter requires node.js >= 22 now
+
 ### 1.2.1
 - Fix E8915: add dependabot cooldown (7 days) to reduce supply chain risk
 - Fix deploy step: use Node.js 24 for trusted publishing compatibility
