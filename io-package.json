@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "dune-hd-remote",
-    "version": "1.2.5",
+    "version": "1.2.6",
     "news": {
+      "1.2.6": {
+        "en": "Fix W0066: pin @types/node to >=22 <23 (was ^26); update @alcalzone/release-script-plugin-license to 5.2.2 (S0064)",
+        "de": "W0066 behoben: @types/node auf >=22 <23 festgelegt (war ^26); @alcalzone/release-script-plugin-license auf 5.2.2 aktualisiert (S0064)",
+        "ru": "Исправление W0066: @types/node зафиксирован на >=22 <23 (было ^26); @alcalzone/release-script-plugin-license обновлён до 5.2.2 (S0064)",
+        "fr": "Correction W0066: @types/node fixé à >=22 <23 (était ^26); @alcalzone/release-script-plugin-license mis à jour vers 5.2.2 (S0064)",
+        "it": "Fix W0066: @types/node fissato a >=22 <23 (era ^26); @alcalzone/release-script-plugin-license aggiornato a 5.2.2 (S0064)",
+        "es": "Fix W0066: @types/node fijado a >=22 <23 (era ^26); @alcalzone/release-script-plugin-license actualizado a 5.2.2 (S0064)",
+        "pl": "Naprawa W0066: @types/node ustawiono na >=22 <23 (było ^26); @alcalzone/release-script-plugin-license zaktualizowano do 5.2.2 (S0064)",
+        "pt": "Fix W0066: @types/node fixado em >=22 <23 (era ^26); @alcalzone/release-script-plugin-license atualizado para 5.2.2 (S0064)",
+        "nl": "Fix W0066: @types/node vastgezet op >=22 <23 (was ^26); @alcalzone/release-script-plugin-license bijgewerkt naar 5.2.2 (S0064)",
+        "uk": "Виправлення W0066: @types/node зафіксовано на >=22 <23 (було ^26); @alcalzone/release-script-plugin-license оновлено до 5.2.2 (S0064)",
+        "zh-cn": "修复W0066：将@types/node固定为>=22 <23（原为^26）；将@alcalzone/release-script-plugin-license更新至5.2.2（S0064）"
+      },
       "1.2.5": {
         "en": "Migrate i18n to short format ({lang}.json); update adapter-core range to ^3.4.3 in package.json",
         "de": "i18n auf Kurzformat ({lang}.json) migriert; adapter-core Range auf ^3.4.3 in package.json aktualisiert",
@@ -80,19 +93,6 @@
         "nl": "dune-notify plugin integratie: meldingen tonen op scherm tijdens afspelen",
         "uk": "Інтеграція плагіна dune-notify: показ сповіщень на екрані під час відтворення",
         "zh-cn": "集成dune-notify插件：播放时在屏幕上显示通知"
-      },
-      "1.1.5": {
-        "en": "Fixed README: added missing changelog entries for 1.1.4",
-        "de": "README korrigiert: fehlende Changelog-Einträge für 1.1.4 hinzugefügt",
-        "ru": "Исправлен README: добавлены недостающие записи changelog для 1.1.4",
-        "fr": "README corrigé: entrées changelog manquantes pour 1.1.4 ajoutées",
-        "it": "README corretto: voci changelog mancanti per 1.1.4 aggiunte",
-        "es": "README corregido: entradas changelog faltantes para 1.1.4 añadidas",
-        "pl": "Naprawiono README: dodano brakujące wpisy changelog dla 1.1.4",
-        "pt": "README corrigido: entradas changelog em falta para 1.1.4 adicionadas",
-        "nl": "README gecorrigeerd: ontbrekende changelog-vermeldingen voor 1.1.4 toegevoegd",
-        "uk": "Виправлено README: додано відсутні записи changelog для 1.1.4",
-        "zh-cn": "修复README：添加1.1.4缺失的changelog条目"
       }
     },
     "titleLang": {
